@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    margin-top: 5px;
+}
+
+.block {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bigButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #33b249;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.bigButton a {
+    color: white;
+    font-size: 20px
+}
